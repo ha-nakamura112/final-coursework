@@ -1,0 +1,14 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: $fontFamilly;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  @include flexColumn(10vh);
+}
+
