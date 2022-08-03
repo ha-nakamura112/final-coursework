@@ -313,4 +313,10 @@ main {
   .berries > article {
     width: 50%;
   }
+  .mushrooms {
+    width: 100%;
+  }
+  .mushrooms > article {
+    width: 50%;
+  }
 }/*# sourceMappingURL=style.css.map */
