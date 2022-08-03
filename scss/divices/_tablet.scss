@@ -71,4 +71,14 @@
             width: 50%;
         }
     }
+
+    .plants {
+        width: 100%;
+        > article {
+            width: 50%;
+        }
+        aside {
+            background-position: right;
+        }
+    }
 }

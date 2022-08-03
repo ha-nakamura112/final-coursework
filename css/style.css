@@ -319,4 +319,13 @@ main {
   .mushrooms > article {
     width: 50%;
   }
+  .plants {
+    width: 100%;
+  }
+  .plants > article {
+    width: 50%;
+  }
+  .plants aside {
+    background-position: right;
+  }
 }/*# sourceMappingURL=style.css.map */
