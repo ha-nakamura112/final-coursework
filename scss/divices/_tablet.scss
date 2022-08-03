@@ -46,7 +46,22 @@
 
         aside {
             height: 35vh;
-            width: 100%;
+            width: 35vh;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .berries {
+        width: 100%;
+        > article {
+            width: 50%;
         }
     }
 }

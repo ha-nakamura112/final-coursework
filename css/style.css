@@ -299,6 +299,18 @@ main {
   }
   .contents aside {
     height: 35vh;
+    width: 35vh;
+  }
+  .contents h1 {
+    font-size: 40px;
+  }
+  .contents p {
+    font-size: 22px;
+  }
+  .berries {
     width: 100%;
+  }
+  .berries > article {
+    width: 50%;
   }
 }/*# sourceMappingURL=style.css.map */
