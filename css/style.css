@@ -293,4 +293,12 @@ main {
   .carousel-inner .carousel-caption {
     margin-bottom: 20%;
   }
+  .contents > article {
+    display: flex;
+    height: 35vh;
+  }
+  .contents aside {
+    height: 35vh;
+    width: 100%;
+  }
 }/*# sourceMappingURL=style.css.map */

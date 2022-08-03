@@ -18,7 +18,7 @@
     nav {
         width: 50%;
     }
-    
+
     .carousel-inner {
 
         h5 {
@@ -35,6 +35,18 @@
 
         .carousel-caption {
             margin-bottom: 20%;
+        }
+    }
+
+    .contents {
+        > article {
+            display: flex;
+            height: 35vh;
+        }
+
+        aside {
+            height: 35vh;
+            width: 100%;
         }
     }
 }
