@@ -10,6 +10,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: unset;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -193,7 +199,7 @@ main {
     font-weight: 600;
   }
   .about p {
-    width: 100%;
+    width: 70%;
     margin: 0;
   }
   .contact {
@@ -251,7 +257,7 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 3vh;
+    row-gap: 4vh;
   }
   footer aside {
     display: flex;
@@ -260,5 +266,31 @@ main {
   }
   footer i {
     font-size: 20px;
+  }
+}
+@media (min-width: 700px) {
+  header h1 {
+    font-size: 38px;
+  }
+  details > summary {
+    font-size: 42px;
+  }
+  details a {
+    font-size: 30px;
+  }
+  nav {
+    width: 50%;
+  }
+  .carousel-inner h5 {
+    font-size: 42px;
+  }
+  .carousel-inner p {
+    font-size: 28px;
+  }
+  .carousel-inner aside {
+    height: 50vh;
+  }
+  .carousel-inner .carousel-caption {
+    margin-bottom: 20%;
   }
 }/*# sourceMappingURL=style.css.map */
