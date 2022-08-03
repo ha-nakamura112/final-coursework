@@ -38,7 +38,7 @@
     z-index: 1;
   }
   nav details li {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 0.1px solid white;
   }
   nav details a {
