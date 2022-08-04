@@ -100,4 +100,42 @@
             width: 90%;
         }
     }
+
+    .about {
+        >article {
+            display: flex;
+            flex-direction: row-reverse;
+            height: 50vh;
+        }
+
+        aside {
+            width: 50%;
+            height: auto;
+        }
+
+        i {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 24px;
+            width: 60%;
+        }
+
+
+        section {
+            display: flex;
+            column-gap: 2vh;
+            padding-top: 6%;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        span {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
 }

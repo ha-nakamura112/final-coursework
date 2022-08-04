@@ -470,4 +470,33 @@ main {
   .plants > article {
     width: 90%;
   }
+  .about > article {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50vh;
+  }
+  .about aside {
+    width: 50%;
+    height: auto;
+  }
+  .about i {
+    font-size: 34px;
+  }
+  .about p {
+    font-size: 24px;
+    width: 60%;
+  }
+  .about section {
+    display: flex;
+    -moz-column-gap: 2vh;
+         column-gap: 2vh;
+    padding-top: 6%;
+  }
+  .about h2 {
+    font-size: 40px;
+  }
+  .about span {
+    font-size: 24px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=style.css.map */
