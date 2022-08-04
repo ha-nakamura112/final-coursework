@@ -171,5 +171,21 @@
             align-items: flex-end;
 
         }
+
+        [type="submit"] {
+            border: 3px solid whitesmoke;
+        }
+    }
+
+    footer {
+        height: 20vh;
+
+        i {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 24px;
+        }
     }
 }

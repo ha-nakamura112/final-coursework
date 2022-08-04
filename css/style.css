@@ -524,4 +524,16 @@ main {
     flex-direction: column;
     align-items: flex-end;
   }
+  .contact [type=submit] {
+    border: 3px solid whitesmoke;
+  }
+  footer {
+    height: 20vh;
+  }
+  footer i {
+    font-size: 32px;
+  }
+  footer p {
+    font-size: 24px;
+  }
 }/*# sourceMappingURL=style.css.map */
