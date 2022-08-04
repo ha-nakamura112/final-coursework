@@ -439,8 +439,8 @@ main {
     height: 50vh;
   }
   .contents aside {
-    height: 50vh;
-    width: 50vh;
+    height: 100%;
+    width: 100%;
   }
   .contents h1 {
     font-size: 48px;
@@ -451,5 +451,11 @@ main {
   .contents a {
     font-size: 22px;
     padding: 2%;
+  }
+  .berries {
+    width: 100%;
+  }
+  .berries > article {
+    width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */

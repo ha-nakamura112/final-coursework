@@ -62,8 +62,8 @@
         }
 
         aside {
-            height: 50vh;
-            width: 50vh;
+            height: 100%;
+            width: 100%;
         }
 
         h1 {
@@ -80,4 +80,10 @@
         }
     }
 
+    .berries {
+        width: 100%;
+        > article {
+            width: 100%;
+        }
+    }
 }
