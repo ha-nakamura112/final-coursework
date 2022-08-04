@@ -359,4 +359,22 @@ main {
   .about span {
     font-size: 18px;
   }
+  .contact h2 {
+    font-size: 40px;
+  }
+  .contact p {
+    font-size: 22px;
+  }
+  .contact div {
+    row-gap: 0;
+  }
+  .contact form {
+    padding-top: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  [type=submit] {
+    width: 30% !important;
+  }
 }/*# sourceMappingURL=style.css.map */

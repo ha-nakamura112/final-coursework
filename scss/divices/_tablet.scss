@@ -121,4 +121,29 @@
             font-size: 18px;
         }
     }
+
+    .contact {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        div {
+            row-gap: 0;
+        }
+
+        form {
+            padding-top: 2vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+    [type="submit"] {
+        width: 30% !important;
+    }
 }
