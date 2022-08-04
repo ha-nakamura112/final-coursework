@@ -119,6 +119,7 @@
 
         span {
             font-size: 18px;
+            font-weight: 500;
         }
     }
 
@@ -129,6 +130,7 @@
 
         p {
             font-size: 22px;
+            font-weight: 500;
         }
 
         div {
@@ -144,6 +146,18 @@
     }
 
     [type="submit"] {
-        width: 30% !important;
+        width: 20% !important;
+    }
+
+    footer {
+        height: 15vh;
+        row-gap: 2vh;
+
+        i {
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
+        }
     }
 }

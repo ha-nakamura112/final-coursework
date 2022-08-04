@@ -358,12 +358,14 @@ main {
   }
   .about span {
     font-size: 18px;
+    font-weight: 500;
   }
   .contact h2 {
     font-size: 40px;
   }
   .contact p {
     font-size: 22px;
+    font-weight: 500;
   }
   .contact div {
     row-gap: 0;
@@ -375,6 +377,16 @@ main {
     align-items: flex-end;
   }
   [type=submit] {
-    width: 30% !important;
+    width: 20% !important;
+  }
+  footer {
+    height: 15vh;
+    row-gap: 2vh;
+  }
+  footer i {
+    font-size: 28px;
+  }
+  footer p {
+    font-size: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
