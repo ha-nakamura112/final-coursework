@@ -464,4 +464,10 @@ main {
   .mushrooms > article {
     width: 90%;
   }
+  .plants {
+    width: 100%;
+  }
+  .plants > article {
+    width: 90%;
+  }
 }/*# sourceMappingURL=style.css.map */
