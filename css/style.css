@@ -315,6 +315,7 @@ main {
   }
   .mushrooms {
     width: 100%;
+    flex-direction: row-reverse;
   }
   .mushrooms > article {
     width: 50%;
@@ -327,5 +328,35 @@ main {
   }
   .plants aside {
     background-position: right;
+  }
+  .about > article {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 35vh;
+  }
+  .about aside {
+    height: 35vh;
+    width: 35vh;
+  }
+  .about i {
+    font-size: 28px;
+  }
+  .about p {
+    font-size: 18px;
+  }
+  .about div {
+    width: 50%;
+    padding: 1%;
+  }
+  .about section {
+    display: flex;
+    -moz-column-gap: 2vh;
+         column-gap: 2vh;
+  }
+  .about h2 {
+    font-size: 40px;
+  }
+  .about span {
+    font-size: 18px;
   }
 }/*# sourceMappingURL=style.css.map */
