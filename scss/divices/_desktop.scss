@@ -83,7 +83,14 @@
     .berries {
         width: 100%;
         > article {
-            width: 100%;
+            width: 90%;
+        }
+    }
+
+    .mushrooms {
+        width: 100%;
+        > article {
+            width: 90%;
         }
     }
 }
