@@ -1,0 +1,39 @@
+@media (min-width:1000px){
+    header {
+        height: 8vh;
+        display: flex;
+        flex-direction: row-reverse;
+        details {
+            display: none;
+        } 
+    }
+    h1 {
+        font-size: 42px;
+    }
+
+    nav {
+        width: 60%;
+        > ul {
+            width: 100%;
+            display: flex;
+            margin: 0;
+            list-style-type: none;
+            justify-content: space-between;
+        }
+
+        a {
+            padding: 3%;
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $firstColor;
+            }
+        }
+
+        
+    }
+
+}

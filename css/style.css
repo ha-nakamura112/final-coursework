@@ -389,4 +389,37 @@ main {
   footer p {
     font-size: 20px;
   }
+}
+@media (min-width: 1000px) {
+  header {
+    height: 8vh;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  header details {
+    display: none;
+  }
+  h1 {
+    font-size: 42px;
+  }
+  nav {
+    width: 60%;
+  }
+  nav > ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: space-between;
+  }
+  nav a {
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  nav a:hover {
+    color: #1A4D2E;
+  }
 }/*# sourceMappingURL=style.css.map */
