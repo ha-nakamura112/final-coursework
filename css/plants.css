@@ -276,6 +276,9 @@
     height: 25vh;
     width: 25vh;
   }
+  main .recipe p {
+    text-align: center;
+  }
   main .recipe td {
     padding: 0;
   }
