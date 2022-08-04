@@ -105,7 +105,7 @@
         >article {
             display: flex;
             flex-direction: row-reverse;
-            height: 50vh;
+            height: 55vh;
         }
 
         aside {
@@ -136,6 +136,40 @@
         span {
             font-size: 24px;
             font-weight: 500;
+        }
+    }
+
+    .contact {
+        > article {
+            display: flex;
+            height: 65vh;
+        }
+
+        aside {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        div {
+            row-gap: 0;
+            width: 90%;
+        }
+
+        form {
+            padding-top: 2vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
         }
     }
 }
