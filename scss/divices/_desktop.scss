@@ -54,4 +54,30 @@
             margin-bottom: 10%;
         }
     }
+
+    .contents {
+        > article {
+            display: flex;
+            height: 50vh;
+        }
+
+        aside {
+            height: 50vh;
+            width: 50vh;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        a {
+            font-size: 22px;
+            padding: 2%;
+        }
+    }
+
 }

@@ -434,4 +434,22 @@ main {
   .carousel-inner .carousel-caption {
     margin-bottom: 10%;
   }
+  .contents > article {
+    display: flex;
+    height: 50vh;
+  }
+  .contents aside {
+    height: 50vh;
+    width: 50vh;
+  }
+  .contents h1 {
+    font-size: 48px;
+  }
+  .contents p {
+    font-size: 30px;
+  }
+  .contents a {
+    font-size: 22px;
+    padding: 2%;
+  }
 }/*# sourceMappingURL=style.css.map */
