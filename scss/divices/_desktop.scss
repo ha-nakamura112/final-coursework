@@ -12,7 +12,7 @@
     }
 
     nav {
-        width: 60%;
+        width: 50%;
         > ul {
             width: 100%;
             display: flex;
@@ -36,4 +36,22 @@
         
     }
 
+    .carousel-inner {
+
+        h5 {
+            font-size: 44px;
+        }
+    
+        p {
+            font-size: 26px;
+        }
+
+        aside {
+            background-repeat: no-repeat;
+        }
+
+        .carousel-caption {
+            margin-bottom: 10%;
+        }
+    }
 }

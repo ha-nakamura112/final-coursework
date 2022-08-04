@@ -403,7 +403,7 @@ main {
     font-size: 42px;
   }
   nav {
-    width: 60%;
+    width: 50%;
   }
   nav > ul {
     width: 100%;
@@ -421,5 +421,17 @@ main {
   }
   nav a:hover {
     color: #1A4D2E;
+  }
+  .carousel-inner h5 {
+    font-size: 44px;
+  }
+  .carousel-inner p {
+    font-size: 26px;
+  }
+  .carousel-inner aside {
+    background-repeat: no-repeat;
+  }
+  .carousel-inner .carousel-caption {
+    margin-bottom: 10%;
   }
 }/*# sourceMappingURL=style.css.map */
