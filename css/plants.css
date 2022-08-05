@@ -1,3 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  row-gap: unset;
+}
+
 @media (min-width: 300px) {
   header {
     height: 10vh;
@@ -80,28 +98,28 @@
     font-size: 14px;
   }
   .gallery figure aside:nth-child(1) {
-    background-image: url("/img/gallery-1.jpg");
+    background-image: url("/img/gallery-c-1.jpg");
   }
   .gallery figure aside:nth-child(2) {
-    background-image: url("/img/gallery-2.jpg");
+    background-image: url("/img/gallery-c-2.jpg");
   }
   .gallery figure aside:nth-child(3) {
-    background-image: url("/img/gallery-3.jpg");
+    background-image: url("/img/gallery-c-3.jpg");
   }
   .gallery figure aside:nth-child(4) {
-    background-image: url("/img/gallery-4.jpg");
+    background-image: url("/img/gallery-c-4.jpg");
   }
   .gallery figure aside:nth-child(5) {
-    background-image: url("/img/gallery-5.jpg");
+    background-image: url("/img/gallery-c-5.jpg");
   }
   .gallery figure aside:nth-child(6) {
-    background-image: url("/img/gallery-6.jpg");
+    background-image: url("/img/gallery-c-6.jpg");
   }
   .gallery figure aside:nth-child(7) {
-    background-image: url("/img/gallery-7.jpg");
+    background-image: url("/img/gallery-c-7.jpg");
   }
   .gallery figure aside:nth-child(8) {
-    background-image: url("/img/gallery-8.jpg");
+    background-image: url("/img/gallery-c-8.jpg");
   }
   .gallery {
     width: 100%;
@@ -194,6 +212,7 @@
     bottom: -1%;
     border: 0px none transparent;
     height: 10vh;
+    padding: 3vh;
   }
   main > details summary {
     color: #555273;
@@ -201,6 +220,7 @@
   main > details p {
     position: absolute;
     font-size: 14px;
+    background-color: white;
   }
   aside {
     background-position: center;
@@ -212,7 +232,7 @@
     padding-top: 5vh;
   }
   .first aside {
-    background-image: url("/img/bleeding-heart-02.jpg");
+    background-image: url("/img/bleeding-heart.jpg");
   }
   .second aside {
     background-image: url("/img/bear-grass.jpg");
@@ -241,8 +261,25 @@
   }
 }
 @media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header nav {
+    width: 40%;
+  }
+  header nav details > summary {
+    font-size: 40px;
+    padding-left: 5vh;
+  }
+  header nav details a {
+    font-size: 24px;
+  }
   main {
     row-gap: 0;
+  }
+  main aside {
+    height: 25vh;
+    width: 25vh;
   }
   main > section {
     display: flex;
@@ -268,13 +305,17 @@
   }
   main .recipe {
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
   main .recipe > figure {
     padding-top: 5%;
   }
-  main .recipe aside {
-    height: 25vh;
-    width: 25vh;
+  main .recipe > figure > aside {
+    height: 30vh;
+    width: 30vh;
+  }
+  main .recipe p {
+    text-align: center;
   }
   main .recipe td {
     padding: 0;
@@ -286,8 +327,96 @@
     padding: 0;
     line-height: 1;
   }
-  aside {
-    height: 25vh;
-    width: 25vh;
+  main > details summary {
+    padding-top: 3vh;
+  }
+  main > details p {
+    background-color: white;
+  }
+}
+@media (min-width: 1000px) {
+  header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5vh;
+  }
+  header details {
+    display: none;
+  }
+  header h1 {
+    font-size: 42px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav > ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
+  nav a {
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  nav a:hover {
+    color: #1A4D2E;
+  }
+  main {
+    row-gap: 5vh;
+  }
+  main > section {
+    -moz-column-gap: 20vh;
+         column-gap: 20vh;
+    width: 80%;
+    padding: 3%;
+  }
+  main > section > figure {
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main > section > article div {
+    width: 80%;
+    font-size: 22px;
+  }
+  main .gallery figure {
+    row-gap: 3vh;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main .gallery aside {
+    height: 45vh;
+    width: 45vh;
+  }
+  main .gallery aside:hover {
+    width: 50vh;
+    height: 50vh;
+    transition: 0.4s;
+  }
+  main aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe > figure > aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe td {
+    font-size: 16px;
+  }
+  main .recipe p {
+    font-size: 20px;
+  }
+  main .recipe > article {
+    padding-top: 5vh;
+    row-gap: 3vh;
   }
 }/*# sourceMappingURL=plants.css.map */
