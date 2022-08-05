@@ -241,8 +241,25 @@
   }
 }
 @media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header nav {
+    width: 40%;
+  }
+  header nav details > summary {
+    font-size: 40px;
+    padding-left: 5vh;
+  }
+  header nav details a {
+    font-size: 24px;
+  }
   main {
     row-gap: 0;
+  }
+  main aside {
+    height: 25vh;
+    width: 25vh;
   }
   main > section {
     display: flex;
@@ -272,9 +289,8 @@
   main .recipe > figure {
     padding-top: 5%;
   }
-  main .recipe aside {
+  main .recipe > figure > aside {
     height: 25vh;
-    width: 25vh;
   }
   main .recipe p {
     text-align: center;
@@ -289,8 +305,10 @@
     padding: 0;
     line-height: 1;
   }
-  aside {
-    height: 25vh;
-    width: 25vh;
+  main > details summary {
+    padding-top: 3vh;
+  }
+  main > details p {
+    background-color: white;
   }
 }/*# sourceMappingURL=plants.css.map */
