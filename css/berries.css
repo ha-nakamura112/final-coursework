@@ -257,4 +257,164 @@ body {
   .recipe > article {
     row-gap: 1vh;
   }
+}
+@media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header nav {
+    width: 40%;
+  }
+  header nav details > summary {
+    font-size: 40px;
+    padding-left: 5vh;
+  }
+  header nav details a {
+    font-size: 24px;
+  }
+  main {
+    row-gap: 0;
+  }
+  main aside {
+    height: 25vh;
+    width: 25vh;
+  }
+  main > section {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 1vh;
+         column-gap: 1vh;
+    width: 90%;
+    padding: 3%;
+  }
+  main > section > figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+  }
+  main > section > article {
+    padding-top: 4%;
+  }
+  main .first {
+    padding-top: 10vh;
+  }
+  main .second {
+    flex-direction: row-reverse;
+  }
+  main .recipe {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  main .recipe > figure {
+    padding-top: 5%;
+  }
+  main .recipe > figure > aside {
+    height: 30vh;
+    width: 30vh;
+  }
+  main .recipe p {
+    text-align: center;
+  }
+  main .recipe td {
+    padding: 0;
+  }
+  main .recipe > article {
+    padding: 0;
+  }
+  main .recipe > article p {
+    padding: 0;
+    line-height: 1;
+  }
+  main > details summary {
+    padding-top: 3vh;
+  }
+  main > details p {
+    background-color: white;
+  }
+}
+@media (min-width: 1000px) {
+  header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5vh;
+  }
+  header details {
+    display: none;
+  }
+  header h1 {
+    font-size: 42px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav > ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
+  nav a {
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  nav a:hover {
+    color: #1A4D2E;
+  }
+  main {
+    row-gap: 5vh;
+  }
+  main > section {
+    -moz-column-gap: 20vh;
+         column-gap: 20vh;
+    width: 80%;
+    padding: 3%;
+  }
+  main > section > figure {
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main > section > article div {
+    width: 80%;
+    font-size: 22px;
+  }
+  main .gallery figure {
+    row-gap: 3vh;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main .gallery aside {
+    height: 45vh;
+    width: 45vh;
+  }
+  main .gallery aside:hover {
+    width: 50vh;
+    height: 50vh;
+    transition: 0.4s;
+  }
+  main aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe > figure > aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe td {
+    font-size: 16px;
+  }
+  main .recipe p {
+    font-size: 20px;
+  }
+  main .recipe > article {
+    padding-top: 5vh;
+    row-gap: 3vh;
+  }
 }/*# sourceMappingURL=berries.css.map */
