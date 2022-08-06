@@ -42,7 +42,7 @@
       }
   
       li {
-          background-color: rgba(0, 0, 0, 0.2);
+          background-color: rgba(0, 0, 0, 0.5);
           border-bottom: 0.1px solid white;
       }
   
@@ -94,7 +94,7 @@
     .gallery{
       figure {
         aside:nth-child(#{$i}){
-          background-image: url("/img/gallery-#{$i}.jpg");
+          background-image: url("/img/gallery-b-#{$i}.jpg");
         }
       }
     }
@@ -172,7 +172,7 @@
         p {
           font-size: 16px;
           width: 80%;
-          line-height: 1.5
+          line-height: 1.5;
         }
       }
     }
@@ -181,8 +181,9 @@
       position: absolute;
       left: 10%;
       bottom:-1%;
-      border:0px none transparent;
+      border: 0px none transparent;
       height: 10vh;
+      padding: 3vh;
       
       summary {
         color: #555273;
@@ -191,6 +192,7 @@
       p {
         position: absolute;
         font-size: 14px;
+        background-color: white;
       }
     }
   }
