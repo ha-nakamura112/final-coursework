@@ -256,4 +256,78 @@ body {
   .recipe > article {
     row-gap: 1vh;
   }
+}
+@media (min-width: 700px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header nav {
+    width: 40%;
+  }
+  header nav details > summary {
+    font-size: 40px;
+    padding-left: 5vh;
+  }
+  header nav details a {
+    font-size: 24px;
+  }
+  main {
+    row-gap: 0;
+  }
+  main aside {
+    height: 25vh;
+    width: 25vh;
+  }
+  main > section {
+    display: flex;
+    flex-direction: row;
+    -moz-column-gap: 1vh;
+         column-gap: 1vh;
+    width: 90%;
+    padding: 3%;
+  }
+  main > section > figure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+  }
+  main > section > article {
+    padding-top: 4%;
+  }
+  main .first {
+    padding-top: 10vh;
+  }
+  main .second {
+    flex-direction: row-reverse;
+  }
+  main .recipe {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  main .recipe > figure {
+    padding-top: 5%;
+  }
+  main .recipe > figure > aside {
+    height: 30vh;
+    width: 30vh;
+  }
+  main .recipe p {
+    text-align: center;
+  }
+  main .recipe td {
+    padding: 0;
+  }
+  main .recipe > article {
+    padding: 0;
+  }
+  main .recipe > article p {
+    padding: 0;
+    line-height: 1;
+  }
+  main > details summary {
+    padding-top: 3vh;
+  }
+  main > details p {
+    background-color: white;
+  }
 }/*# sourceMappingURL=mushrooms.css.map */
