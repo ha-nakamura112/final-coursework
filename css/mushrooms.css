@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css");
 * {
   padding: 0;
   margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
 
 html {
@@ -329,5 +332,91 @@ body {
   }
   main > details p {
     background-color: white;
+  }
+}
+@media (min-width: 1000px) {
+  header {
+    height: 10vh;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom: 5vh;
+  }
+  header details {
+    display: none;
+  }
+  header h1 {
+    font-size: 42px;
+  }
+  nav {
+    width: 100%;
+  }
+  nav > ul {
+    width: 100%;
+    display: flex;
+    margin: 0;
+    list-style-type: none;
+    justify-content: center;
+    text-align: center;
+    -moz-column-gap: 5vh;
+         column-gap: 5vh;
+  }
+  nav a {
+    padding: 3%;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  nav a:hover {
+    color: #1A4D2E;
+  }
+  main {
+    row-gap: 5vh;
+  }
+  main > section {
+    -moz-column-gap: 20vh;
+         column-gap: 20vh;
+    width: 80%;
+    padding: 3%;
+  }
+  main > section > figure {
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main > section > article div {
+    width: 80%;
+    font-size: 22px;
+  }
+  main .gallery figure {
+    row-gap: 3vh;
+    -moz-column-gap: 3vh;
+         column-gap: 3vh;
+  }
+  main .gallery aside {
+    height: 45vh;
+    width: 45vh;
+  }
+  main .gallery aside:hover {
+    width: 50vh;
+    height: 50vh;
+    transition: 0.4s;
+  }
+  main aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe > figure > aside {
+    height: 60vh;
+    width: 60vh;
+  }
+  main .recipe td {
+    font-size: 16px;
+  }
+  main .recipe p {
+    font-size: 20px;
+  }
+  main .recipe > article {
+    padding-top: 5vh;
+    row-gap: 3vh;
   }
 }/*# sourceMappingURL=mushrooms.css.map */
