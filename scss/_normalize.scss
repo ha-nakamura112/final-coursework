@@ -1,13 +1,19 @@
-*{
-  padding: 0;
-  margin: 0;
-  font-family: $fontFamily;
+* {
+    margin: 0;
+    padding: 0;
 }
 
 html {
-  scroll-behavior: smooth;
+    font-family: $fontFamily;
+    scroll-behavior: smooth;
 }
 
-body{
-  @include flexColumn;
+body {
+    @include flexColumn;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
 }
