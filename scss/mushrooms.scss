@@ -2,6 +2,6 @@
 @import 'mixins';
 @import 'normalize';
 
-@import 'devices/mobile';
-@import 'devices/tablet';
-@import 'devices/desktop';
+@import './mushroom/mobile';
+@import './mushroom/tablet';
+@import './mushroom/desktop';
