@@ -1,0 +1,163 @@
+@media (min-width: 700px){
+
+    header {
+        h1 {
+            font-size: 38px;
+        }
+    }
+    details {
+        > summary {
+            font-size: 42px;
+        }
+
+        a {
+            font-size: 30px;
+        }
+    }
+
+    nav {
+        width: 50%;
+    }
+
+    .carousel-inner {
+
+        h5 {
+            font-size: 42px;
+        }
+
+        p {
+            font-size: 28px;
+        }
+
+        aside {
+            height: 50vh;
+        }
+
+        .carousel-caption {
+            margin-bottom: 20%;
+        }
+    }
+
+    .contents {
+        > article {
+            display: flex;
+            height: 35vh;
+        }
+
+        aside {
+            height: 35vh;
+            width: 35vh;
+        }
+
+        h1 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+        }
+    }
+
+    .berries {
+        width: 100%;
+        > article {
+            width: 50%;
+        }
+    }
+
+    .mushrooms {
+        width: 100%;
+        flex-direction: row-reverse;
+        > article {
+            width: 50%;
+        }
+    }
+
+    .plants {
+        width: 100%;
+        > article {
+            width: 50%;
+        }
+        aside {
+            background-position: right;
+        }
+    }
+
+    .about {
+        >article {
+            display: flex;
+            flex-direction: row-reverse;
+            height: 35vh;
+        }
+
+        aside {
+            height: 35vh;
+            width: 35vh;
+        }
+
+        i {
+            font-size: 28px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        div {
+            width: 50%;
+            padding: 1%;
+        }
+
+        section {
+            display: flex;
+            column-gap: 2vh;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        span {
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    .contact {
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 22px;
+            font-weight: 500;
+        }
+
+        div {
+            row-gap: 0;
+        }
+
+        form {
+            padding-top: 2vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
+
+    [type="submit"] {
+        width: 20% !important;
+    }
+
+    footer {
+        height: 15vh;
+        row-gap: 2vh;
+
+        i {
+            font-size: 28px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}

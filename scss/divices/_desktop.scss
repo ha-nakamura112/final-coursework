@@ -1,0 +1,191 @@
+@media (min-width:1000px){
+    header {
+        height: 8vh;
+        display: flex;
+        flex-direction: row-reverse;
+        details {
+            display: none;
+        } 
+    }
+    h1 {
+        font-size: 42px;
+    }
+
+    nav {
+        width: 50%;
+        > ul {
+            width: 100%;
+            display: flex;
+            margin: 0;
+            list-style-type: none;
+            justify-content: space-between;
+        }
+
+        a {
+            padding: 3%;
+            text-decoration: none;
+            color: black;
+            font-size: 22px;
+            text-transform: uppercase;
+
+            &:hover {
+                color: $firstColor;
+            }
+        }
+
+        
+    }
+
+    .carousel-inner {
+
+        h5 {
+            font-size: 44px;
+        }
+    
+        p {
+            font-size: 26px;
+        }
+
+        aside {
+            background-repeat: no-repeat;
+        }
+
+        .carousel-caption {
+            margin-bottom: 10%;
+        }
+    }
+
+    .contents {
+        > article {
+            display: flex;
+            height: 50vh;
+        }
+
+        aside {
+            height: 100%;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+
+        a {
+            font-size: 22px;
+            padding: 2%;
+        }
+    }
+
+    .berries {
+        width: 100%;
+        > article {
+            width: 90%;
+        }
+    }
+
+    .mushrooms {
+        width: 100%;
+        > article {
+            width: 90%;
+        }
+    }
+
+    .plants {
+        width: 100%;
+        > article {
+            width: 90%;
+        }
+    }
+
+    .about {
+        >article {
+            display: flex;
+            flex-direction: row-reverse;
+            height: 55vh;
+        }
+
+        aside {
+            width: 50%;
+            height: auto;
+        }
+
+        i {
+            font-size: 34px;
+        }
+
+        p {
+            font-size: 24px;
+            width: 60%;
+        }
+
+
+        section {
+            display: flex;
+            column-gap: 2vh;
+            padding-top: 6%;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        span {
+            font-size: 24px;
+            font-weight: 500;
+        }
+    }
+
+    .contact {
+        > article {
+            display: flex;
+            height: 65vh;
+        }
+
+        aside {
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        div {
+            row-gap: 0;
+            width: 90%;
+        }
+
+        form {
+            padding-top: 2vh;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+
+        }
+
+        [type="submit"] {
+            border: 3px solid whitesmoke;
+        }
+    }
+
+    footer {
+        height: 20vh;
+
+        i {
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 24px;
+        }
+    }
+}
