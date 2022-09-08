@@ -24,32 +24,38 @@
     }
  
     main {
+        width: 100%;
+        row-gap: 1vh;
  
-        row-gap: 0;
- 
-        aside {
+        .gallery{
+            width: 100%;
+            aside {
             height: 25vh;
             width: 25vh;
+            }
         }
  
         > section {
-            @include flexRow (1vh);
-            width: 90%;
-            padding: 3%;
+            @include flexRow(5vh);
+            width: 80%;
+            padding: 2%;
  
             > figure {
                 @include flexColumn(1vh);
+
+                aside{
+                    width: 30vh;
+                    height: 30vh;
+                }
             }
  
             > article {
-                padding-top: 4%;
+                padding: 2%;
+                width: 60%;
+
             }
         }
- 
-        .first {
-            padding-top: 10vh;
-        }
- 
+
         .second {
             flex-direction: row-reverse;
         }

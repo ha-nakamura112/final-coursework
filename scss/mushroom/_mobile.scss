@@ -115,7 +115,7 @@
         justify-content: center;
   
         aside {
-          @include bg-img;
+          @include Bg-img;
           width: 40vw;
           height: 35vw;
   
@@ -149,6 +149,8 @@
     
         > article {
           @include flexColumn(3vh);
+          padding-top: 3%;
+          padding-left: 3%;
     
           div {
             @include flexRow(4vh);
@@ -200,7 +202,7 @@
     }
   
     aside {
-      @include bg-img;
+      @include Bg-img;
       height: 35vh;
     }
   

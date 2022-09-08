@@ -1,11 +1,9 @@
 @media (min-width: 700px) {
  
     header {
-
         h1 {
             font-size: 40px;
         }
-     
         nav {
             width: 40%;
        
@@ -24,7 +22,6 @@
     }
  
     main {
- 
         row-gap: 0;
  
         aside {
@@ -33,16 +30,17 @@
         }
  
         > section {
-            @include flexRow (1vh);
+            @include flexRow(5vh);
             width: 90%;
             padding: 3%;
- 
+            
             > figure {
+                border: 1px solid red;
                 @include flexColumn(1vh);
             }
  
             > article {
-                padding-top: 4%;
+                width: 80vh;
             }
         }
  

@@ -113,7 +113,7 @@
       justify-content: center;
 
       aside {
-        @include bg-img;
+        @include Bg-img;
         width: 40vw;
         height: 35vw;
 
@@ -122,6 +122,10 @@
           height: 40vw;
           transition: .4s;
         }
+      }
+
+      > aside:last-child{
+        display: none !important;
       }
     }
   }
